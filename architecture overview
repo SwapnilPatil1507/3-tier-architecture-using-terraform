@@ -1,0 +1,12 @@
+📌 Architecture Overview:
+✔️ VPC with Public & Private Subnets
+✔️ Web Tier – EC2 Instances with a Security Group allowing HTTP/HTTPS access
+✔️ App Tier – EC2 Instances in a private subnet with controlled access
+✔️ DB Tier – RDS (MySQL) in a private subnet with restricted access
+✔️ Security – Security Groups, and Route Tables for controlled traffic
+✔️ Provisioning – Automated deployment using Terraform
+
+🔧 Prerequisites:
+Terraform v1.1+
+AWS CLI configured with appropriate credentials
+SSH key pair for EC2 instance access
