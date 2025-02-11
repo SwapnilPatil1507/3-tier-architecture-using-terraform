@@ -7,7 +7,7 @@ variable "ins_type" {
 }
 variable "ami" {
   type    = string
-  default = "ami-00bb6a80f01f03502"
+  default = "give your ami id here"
 }
 variable "access" {
   type = string
