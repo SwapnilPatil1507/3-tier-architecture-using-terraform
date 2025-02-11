@@ -1,0 +1,7 @@
+access   = "your aws access key"
+secret   = "your aws secret key"
+region   = "ap-south-1"
+ami      = "your ami id"
+ins_type = "t2.micro"
+db_user = "give a username to database"
+db_pass = "give password for database"
