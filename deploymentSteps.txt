@@ -1,3 +1,12 @@
-1. clone the repository:
-
-  
+1. connect your ec2
+2. mkdir 3-tier && cd 3-tier
+3. clone the repository:
+https://github.com/SwapnilPatil1507/3-tier-architecture-using-terraform.git
+4.  Initialize Terraform:
+terraform init  
+5.  Plan the infrastructure:
+terraform plan  
+6. terraform apply -auto-approve  
+terraform apply -auto-approve  
+7.  Destroy the infrastructure when no longer needed:
+terraform destroy -auto-approve  
